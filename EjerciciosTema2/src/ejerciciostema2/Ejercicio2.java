@@ -17,10 +17,15 @@ public class Ejercicio2 {
 		num2 = scan.nextInt(); //guardar segundo numero
 		
 		//comprar
-		if (num1 == num2) {
-			System.out.println("Son iguales");
+		if (num1 == num2) { // si numero 1 y 2 son iguales
+			System.out.println("Son iguales"); // respuesta
+		} 
+		else { // si son diferentes
+			System.out.println("Son diferentes"); // respuesta
 		}
-		else
+		
+		// cierre escáner
+		scan.close();
 	}
 
 }
