@@ -25,7 +25,7 @@ public class Ejercicio9 {
 		if (jugador1 == jugador2) { // si el jugador 1 es igual al jugador 2, hay un empate
 			System.out.println("Empate");
 		}
-		else if (jugador1 == 1 && jugador2 ==3 || jugador1 == 2 && jugador2 == 1 || jugador1 == 3 && jugador2 ==2) { 
+		else if (jugador1 == PIEDRA && jugador2 == TIJERAS || jugador1 == PAPEL && jugador2 == PIEDRA || jugador1 == TIJERAS && jugador2 == PAPEL) { 
 			System.out.println("Gana el jugador 1"); // opciones en las que ganaría el jugador 1
 		}
 		else if (jugador1 < 1 || jugador1 > 3 || jugador2 <1 || jugador2 >3) { // datos introducidos que no serían válidos
