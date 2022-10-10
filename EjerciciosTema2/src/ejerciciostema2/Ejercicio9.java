@@ -12,6 +12,23 @@ public class Ejercicio9 {
 		
 		// variables
 		Scanner scan = new Scanner (System.in); //inciar escáner
+		String jugador1, jugador2; // jugadores
+		String PIEDRA = "PIEDRA", PAPEL = "PAPEL", TIJERAS = "TIJERAS"; // jugadas
+		
+		// introducir datos
+		System.out.println("Jugador 1: Escribe PIEDRA, PAPEL o TIJERAS: ");
+		jugador1 = scan.next();
+		System.out.println("Jugador 2: Escribe PIEDRA, PAPEL o TIJERAS: ");
+		jugador2 = scan.next();
+		
+		// juego
+		
+		
+		
+		
+		
+		
+		
 		
 
 	}
